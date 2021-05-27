@@ -25,6 +25,10 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.mul(3, 5), 15);
 	}
+	public void testMul2() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.mul(4, 5), 15);
+	}
 	@Test
 	public void testDiv() {
 		SimpleCalculator calc = new SimpleCalculator();
